@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image-01.jpg';
+import Record from '../images/record.gif';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -64,8 +65,9 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-              <img className="mx-auto" src={HeroImage} width="1024" height="504" alt="Hero" />
-              <a
+              <img className="mx-auto" src={Record} width="1024" height="504" alt="Hero" />
+              {/* <img className="mx-auto" src={HeroImage} width="1024" height="504" alt="Hero" /> */}
+              {/* <a
                 className="absolute group"
                 href="#0"
                 onClick={(e) => {
@@ -92,7 +94,7 @@ function HeroHome() {
                     d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
                   />
                 </svg>
-              </a>
+              </a> */}
             </div>
 
             {/* Modal */}

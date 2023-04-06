@@ -43,7 +43,7 @@ function Header() {
               <img src={logo} style={{ width: '40px', height: '40px' }} />
             </Link>
             <h1 className="h4 mt-1 ml-4" data-aos="fade-up">
-              SNS-GPT
+              gpt4sns
             </h1>
           </div>
           {/* <div className="shrink-0 mr-4">

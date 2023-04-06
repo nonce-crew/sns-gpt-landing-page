@@ -29,7 +29,7 @@ function FeaturesZigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Chatper ONE.</div>
+                  <div className="font-architects-daughter text-xl text-green-600 mb-2">Chatper ONE.</div>
                   <h3 className="h3 mb-3">Instagram</h3>
                   <p className="text-xl text-gray-400 mb-4">Struggling to manage your Instagram account? Boost your influence with our top-notch comment recommendations. Let us handle the hard work while you sit back and watch your engagement soar.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -65,7 +65,7 @@ function FeaturesZigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Chatper TWO.</div>
+                  <div className="font-architects-daughter text-xl text-green-600 mb-2">Chatper TWO.</div>
                   <h3 className="h3 mb-3">Linkedin</h3>
                   <p className="text-xl text-gray-400 mb-4">Are there any more applicants you'd like to find out? Stop the repetitive tasks. We'll make it for you.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -101,7 +101,7 @@ function FeaturesZigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Chapter THREE.</div>
+                  <div className="font-architects-daughter text-xl text-green-600 mb-2">Chapter THREE.</div>
                   <h3 className="h3 mb-3">Twitter</h3>
                   <p className="text-xl text-gray-400 mb-4">Working for more followers? SNS-GPT ensures maximum efficiency in less time.</p>
                   <ul className="text-lg text-gray-400 -mb-2">

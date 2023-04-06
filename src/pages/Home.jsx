@@ -28,12 +28,12 @@ function Home() {
         <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
 
       {/* <Banner /> */}
 
-      {/*  Site footer */}
+       {/* Site footer */}
       <Footer />
     </div>
   );
