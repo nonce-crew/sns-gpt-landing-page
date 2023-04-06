@@ -37,18 +37,26 @@ function Header() {
         <div className="flex items-center justify-between h-20">
 
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <div className="max-w-xs my-auto sm:max-w-none sm:flex sm:justify-center">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
               <img src={logo} style={{ width: '40px', height: '40px' }} />
             </Link>
+            <h1 className="h4 mt-1 ml-4" data-aos="fade-up">
+              SNS-GPT
+            </h1>
           </div>
+          {/* <div className="shrink-0 mr-4">
+            <Link to="/" className="block" aria-label="Cruip">
+              <img src={logo} style={{ width: '40px', height: '40px' }} />
+            </Link>
+          </div> */}
 
           {/* Desktop navigation */}
           {/* <nav className="hidden md:flex md:grow"> */}
 
-            {/* Desktop sign in links */}
-            {/* <ul className="flex grow justify-end flex-wrap items-center">
+          {/* Desktop sign in links */}
+          {/* <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/signin" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
               </li>
@@ -62,8 +70,8 @@ function Header() {
           {/* Mobile menu */}
           {/* <div className="md:hidden"> */}
 
-            {/* Hamburger button */}
-            {/* <button ref={trigger} className={`hamburger ${mobileNavOpen && 'active'}`} aria-controls="mobile-nav" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(!mobileNavOpen)}>
+          {/* Hamburger button */}
+          {/* <button ref={trigger} className={`hamburger ${mobileNavOpen && 'active'}`} aria-controls="mobile-nav" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(!mobileNavOpen)}>
               <span className="sr-only">Menu</span>
               <svg className="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <rect y="4" width="24" height="2" rx="1" />
@@ -72,8 +80,8 @@ function Header() {
               </svg>
             </button> */}
 
-            {/*Mobile navigation */}
-            {/* <nav id="mobile-nav" ref={mobileNav} className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: .8 }}>
+          {/*Mobile navigation */}
+          {/* <nav id="mobile-nav" ref={mobileNav} className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: .8 }}>
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link to="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Sign in</Link>
