@@ -23,7 +23,7 @@ function Pricing() {
             <div className="flex flex-col h-full p-8 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <h2 className="h3">$0<span className="text-gray-600">/mo</span></h2>
+                  <h2 className="h3">$0</h2>
                   <h2 className="h4">Free</h2>
                 </div>
               </div>
