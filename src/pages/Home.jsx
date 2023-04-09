@@ -9,6 +9,7 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Banner from '../partials/Banner';
 import Footer from '../partials/Footer';
+import Pricing from '../partials/Pricing';
 
 function Home() {
   return (
@@ -29,11 +30,12 @@ function Home() {
         <FeaturesZigZag />
         <Testimonials />
         {/* <Newsletter /> */}
+        <Pricing />
       </main>
 
       {/* <Banner /> */}
 
-       {/* Site footer */}
+      {/* Site footer */}
       <Footer />
     </div>
   );
