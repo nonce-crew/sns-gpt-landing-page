@@ -1,9 +1,5 @@
 import React from 'react';
 
-import TestimonialImage01 from '../images/testimonial-01.jpg';
-import TestimonialImage02 from '../images/testimonial-02.jpg';
-import TestimonialImage03 from '../images/testimonial-03.jpg';
-
 function Pricing() {
   return (
     <section>
@@ -17,17 +13,17 @@ function Pricing() {
           </div>
 
           {/* Pricing */}
-          <div className="max-w-sm mx-auto sm:max-w-none sm:justify-center grid gap-8 lg:grid-cols-2 lg:gap-6 items-start lg:max-w-none ">
-            {/* <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none "> */}
+          {/* <div className="max-w-sm mx-auto sm:max-w-none sm:justify-center grid gap-8 lg:grid-cols-2 lg:gap-6 items-start lg:max-w-none "> */}
+          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none ">
             {/* 2nd testimonial */}
-            <div className="flex flex-col h-full p-8 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
+            <div className="flex flex-col h-full p-8 bg-gray-800 break-all" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <h2 className="h3">$0</h2>
-                  <h2 className="h4">Free</h2>
+                  <h2 className="h4">Lite</h2>
                 </div>
               </div>
-              <div className="text-gray-700 font-medium mb-8 h-12">
+              <div className="text-gray-700 font-medium mb-8 h-16">
                 <cite className="text-gray-500 not-italic">Provides basic features for free.</cite>
               </div>
 
@@ -40,7 +36,7 @@ function Pricing() {
                   <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>40 calls per week</span>
+                  <span>Up to 40 calls per week</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -58,15 +54,15 @@ function Pricing() {
             </div>
 
             {/* 2nd testimonial */}
-            <div className="flex flex-col h-full p-8 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
+            <div className="flex flex-col h-full p-8 bg-gray-800 break-all" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <h2 className="h3">$10<span className="text-gray-600">/mo</span></h2>
-                  <h2 className="h4">Pro</h2>
+                  <h2 className="h4">Standard</h2>
                 </div>
               </div>
-              <div className="text-gray-700 font-medium mb-8 h-12">
-                <cite className="text-gray-500 not-italic">Offers more features and performance, but may come with additional costs.</cite>
+              <div className="text-gray-700 font-medium mb-8 h-16">
+                <cite className="text-gray-500 not-italic">Offers more performance and features, but may come with additional costs.</cite>
               </div>
 
               <div className="mx-auto w-full text-gray-700 font-medium mb-6 pb-5 border-b border-gray-700">
@@ -78,7 +74,7 @@ function Pricing() {
                   <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>Up to 10,000 calls per month</span>
+                  <span>Up to 250 calls per week</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -103,6 +99,38 @@ function Pricing() {
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
                   <span>Ability to adjust the number of comments</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* 3nd testimonial */}
+            <div className="flex flex-col h-full p-8 bg-gray-800 break-all" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="h3">$30<span className="text-gray-600">/mo</span></h2>
+                  <h2 className="h4">Advanced</h2>
+                </div>
+              </div>
+              <div className="text-gray-700 font-medium mb-8 h-16">
+                <cite className="text-gray-500 not-italic">Offers more performance and features, but may come with additional costs.</cite>
+              </div>
+
+              <div className="mx-auto w-full text-gray-700 font-medium mb-6 pb-5 border-b border-gray-700">
+                <a className="btn w-full text-white font-bold bg-pro-700 hover:bg-white hover:text-pro-700 shadow" href="#0">Upgrade to Pro</a>
+              </div>
+
+              <ul className="text-gray-500">
+                <li className="flex items-center mb-2">
+                  <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span>Up to 1,000 calls per week</span>
+                </li>
+                <li className="flex items-center mb-2">
+                  <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span>The options equivalent to Standard</span>
                 </li>
               </ul>
             </div>
