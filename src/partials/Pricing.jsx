@@ -17,11 +17,15 @@ function Pricing() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none ">
             {/* 2nd testimonial */}
             <div className="flex flex-col h-full p-8 bg-gray-800 break-all" data-aos="fade-up" data-aos-delay="200">
-              <div>
-                <div className="flex items-center justify-between mb-4">
+              <div className="mb-4">
+                <div className="flex items-center justify-between">
                   <h2 className="h3">$0</h2>
                   <h2 className="h4">Lite</h2>
                 </div>
+                <cite className="text-gray-500 not-italic font-semibold">
+                  <span>　</span>
+                  <span> </span>
+                </cite>
               </div>
               <div className="text-gray-700 font-medium mb-8 h-16">
                 <cite className="text-gray-500 not-italic">Provides basic features for free.</cite>
@@ -55,11 +59,15 @@ function Pricing() {
 
             {/* 2nd testimonial */}
             <div className="flex flex-col h-full p-8 bg-gray-800 break-all" data-aos="fade-up" data-aos-delay="200">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <h2 className="h3">$10<span className="text-gray-600">/mo</span></h2>
+              <div className="mb-4">
+                <div className="flex items-center justify-between">
+                  <h2 className="h3">$5.9/mo</h2>
                   <h2 className="h4">Standard</h2>
                 </div>
+                <cite className="text-gray-500 not-italic font-semibold">
+                  <span className="line-through">$9.9 monthly price</span>
+                  <span> (40% off)</span>
+                </cite>
               </div>
               <div className="text-gray-700 font-medium mb-8 h-16">
                 <cite className="text-gray-500 not-italic">Offers more performance and features, but may come with additional costs.</cite>
@@ -105,11 +113,15 @@ function Pricing() {
 
             {/* 3nd testimonial */}
             <div className="flex flex-col h-full p-8 bg-gray-800 break-all" data-aos="fade-up" data-aos-delay="200">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <h2 className="h3">$30<span className="text-gray-600">/mo</span></h2>
+              <div className="mb-4">
+                <div className="flex items-center justify-between">
+                  <h2 className="h3">$11.9/mo</h2>
                   <h2 className="h4">Advanced</h2>
                 </div>
+                <cite className="text-gray-500 not-italic font-semibold">
+                  <span className="line-through">$19.9 monthly price</span>
+                  <span> (40% off)</span>
+                </cite>
               </div>
               <div className="text-gray-700 font-medium mb-8 h-16">
                 <cite className="text-gray-500 not-italic">Offers more performance and features, but may come with additional costs.</cite>
@@ -124,7 +136,7 @@ function Pricing() {
                   <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>Up to 1,000 calls per week</span>
+                  <span>Up to 700 calls per week</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +167,7 @@ function Pricing() {
 
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 
