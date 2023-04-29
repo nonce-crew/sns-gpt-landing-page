@@ -32,7 +32,11 @@ function Pricing() {
               </div>
 
               <div className="mx-auto w-full text-gray-700 font-medium mb-6 pb-5 border-b border-gray-700">
-                <a className="btn w-full text-white font-bold bg-green-600 hover:bg-white hover:text-green-600 shadow" href="#0">Start Free Trial</a>
+                <a 
+                className="btn w-full text-white font-bold bg-green-600 hover:bg-white hover:text-green-600 shadow" 
+                href="https://chrome.google.com/webstore/detail/sns-gpt-smart-comments-le/gdhojalomifapjegkgnomkbgdoogoghf"
+                target="_blank"
+                >Start Free Trial</a>
               </div>
 
               <ul className="text-gray-500">

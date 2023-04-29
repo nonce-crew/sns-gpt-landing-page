@@ -30,7 +30,11 @@ function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Products</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">SNS-GPT</Link>
+                    <Link
+                      to="https://chrome.google.com/webstore/detail/sns-gpt-smart-comments-le/gdhojalomifapjegkgnomkbgdoogoghf"
+                      target="_blank"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >SNS-GPT</Link>
                   </li>
                   {/* <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">DynamicBox Flex</Link>
